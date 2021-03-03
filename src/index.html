@@ -1,0 +1,119 @@
+<h1 id="title">Survey Time&#58; <span>Movies</span></h1>
+<main role="main">
+  <p id="description">What kind of viewer are you?</p>
+  <form id="survey-form" target="_blank">
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label">* Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="age">* Age: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+      </div>
+    </div>
+    <p>How savvy are you?</p>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="trivia">Stars in "Out of Africa" as Karen Blixen: </label>
+      </div>
+      <div class="rightTab">
+        <ul id="trivia" style="list-style: none;">
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons" value="1" type="radio" class="trivia">Jodie Foster</li>
+          <li class="radio" onclick="alert('Correct!')"><input name="radio-buttons" value="2" type="radio" class="trivia">Meryl Streep</li>
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons" value="3" type="radio" class="trivia">Michelle Pfeiffer</li>
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons" value="4" type="radio" class="trivia">Susan Sarandon</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="trivia">The Grand Budapest Hotel was released in: </label>
+      </div>
+      <div class="rightTab">
+        <ul id="trivia" style="list-style: none;">
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons2" value="1" type="radio" class="trivia">2013</li>
+          <li class="radio" onclick="alert('Correct!')"><input name="radio-buttons2" value="2" type="radio" class="trivia">2014</li>
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons2" value="3" type="radio" class="trivia">2015</li>
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons2" value="4" type="radio" class="trivia">2016</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="trivia">The only person to win an Oscar for Best Director for the only movie he ever directed: </label>
+      </div>
+      <div class="rightTab">
+        <ul id="trivia" style="list-style: none;">
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons3" value="1" type="radio" class="trivia">Bob Fosse</li>
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons3" value="2" type="radio" class="trivia">Frank Borzage</li>
+          <li class="radio" onclick="alert('Are you sure?')"><input name="radio-buttons3" value="3" type="radio" class="trivia">Leo McCarey</li>
+          <li class="radio" onclick="alert('Correct!')"><input name="radio-buttons3" value="4" type="radio" class="trivia">Jerome Robbins</li>
+        </ul>
+      </div>
+    </div>
+    <p>What is your attitude when watching a movie?</p>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="viewer">I am</label>
+      </div>
+      <div class="rightTab">
+        <ul id="attitudes" style="list-style: none;">
+          <li class="checkbox"><label><input name="viewer" value="1" type="checkbox" class="attitudes">Passionate (emotions go through the screen and embrace me all)</label></li>
+          <li class="checkbox"><label><input name="viewer" value="2" type="checkbox" class="attitudes">Introspective (I like to ponder about the meaning behind every scene</label></li>
+          <li class="checkbox"><label><input name="viewer" value="3" type="checkbox" class="attitudes">Laid-back (movies are my source of entertainment solely)</label></li>
+          <li class="checkbox"><label><input name="viewer" value="4" type="checkbox" class="attitudes">Active (I am always searching something to watch and trying to engage others, too)</label></li>
+        </ul>
+      </div>
+    </div>
+    <p>Personal preferences</p>
+    <div class="rowTab" id="additional">
+      <div class="labels">
+        <label for="preferences">Movie genres I am into: </label>
+      </div>
+      <div class="rightTab" id="choice">
+        <select name="preferences" id="dropdown" class="selectpicker" multiple>
+      <option disabled value style="background-color: cadetblue;">Select your choice(s)</option>
+      <option>Comedy</option>
+      <option>Drama</option>
+      <option>Historical</option>
+      <option>Horror</option>
+      <option>Action</option>
+      <option>Adventure</option>
+      <option>Musicals</option>
+      <option>Science-fiction</option>
+      <option>Western</option>
+      <option>Romance</option>
+      <option>Thriller</option>
+      <option>Road movies</option>
+      <option>Superhero movies</option>
+      <option>Animated</option>
+      <option>War-themed</option>
+    </select>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="comments">What's your favorite movie and why?</label>
+      </div>
+      <div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</main>
