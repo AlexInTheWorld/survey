@@ -37,7 +37,7 @@ User Story #16: Inside the form element, I am presented with a button with id="s
 
 ___
 
-[Survey Page] (https://alexintheworld.github.io/survey/)
+[Survey Page](https://alexintheworld.github.io/survey/)
 
 Firstly created on CodePen.io. Original URL: [https://codepen.io/Alex_in_the_World/pen/bGbyLMO](https://codepen.io/Alex_in_the_World/pen/bGbyLMO).
 
